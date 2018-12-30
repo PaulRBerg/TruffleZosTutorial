@@ -13,4 +13,8 @@ contract Note is Initializable {
   function getNumber() public view returns (uint256 _number) {
     return number;
   }
+
+  function setNumber(uint256 _number) public {
+    number = _number;
+  }
 }
