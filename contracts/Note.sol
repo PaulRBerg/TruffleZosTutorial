@@ -1,10 +1,12 @@
 // Note.sol
 pragma solidity ^0.4.25;
 
-contract Note  {
+import "zos-lib/contracts/Initializable.sol";
+
+contract Note is Initializable {
   uint256 private number;
 
-  constructor(uint256 _number) public {
+  function initialize(uint256 _number) public initializer {
     number = _number;
   }
 
