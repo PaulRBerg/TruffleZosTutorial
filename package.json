@@ -1,0 +1,19 @@
+{
+  "name": "truffle-tutorial-mockup",
+  "version": "0.1.0",
+  "author": "Paul Berg (https://paulrberg.com)",
+  "description": "Mock-up files for the Truffle+ZeppelinOS tutorial",
+  "license": "MIT",
+  "keywords": [
+    "ethereum",
+    "truffle",
+    "blockchain"
+  ],
+  "dependencies": {
+    "truffle": "^5.0.0",
+    "zos": "^2.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
