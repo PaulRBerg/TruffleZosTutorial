@@ -1,5 +1,5 @@
 // Note.sol
-pragma solidity ^0.4.25;
+pragma solidity ^0.5.0;
 
 contract Note  {
   uint256 private number;
